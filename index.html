@@ -9,12 +9,46 @@
     <title>Survey Form</title>
 </head>
 <body>
-<div class="container" id="survey">
-
-
-
-<!-- end of container -->
-</div>
+        <div class="container" id="survey">
+                <h1 id="title">Survey</h1>
+                <p id="description">Please let me know what you'd like to see more of on my blog.</p>
+                <form id="survey-form">
+                <div class="form-group row">
+                <!-- Name input -->
+                    <label for="name" class="col-sm-1 col-form-label col-form-label-sm" id="name-label">Name</label>
+                    <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <!-- Email input -->
+                <div class="form-group row">
+                    <label for="email" class="col-sm-1 col-form-label col-form-label-sm" id="email-label">Email</label>
+                    <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-sm" id="email" placeholder="name@example.com" required>
+                    <!-- col-sm-10 -->
+                    </div>
+                <!--form-group row -->
+                </div>
+                <!-- Age Input -->
+                <div class="form-group row">
+                    <label for="age" class="col-sm-1 col-form-label col-form-label-sm" id="number-label">Age</label>
+                    <div class="col-auto mr-auto">
+                    <input type="number" class="form-control form-control-sm" id="number" placeholder="Age" min="5" max="105">
+                    </div>
+                    <!-- form-group row -->
+                </div>
+                <!-- dropdown box -->
+            <div class="form-group row">
+                
+            <!-- dropdown Form-group-row closing tag-->
+            </div>
+            
+            
+            
+                <!-- end of form -->   
+                </form>
+                <!-- end of Container -->
+                </div>
 
 
 
