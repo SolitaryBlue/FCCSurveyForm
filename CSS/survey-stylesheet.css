@@ -1,0 +1,18 @@
+body {
+    background-color: #10212E;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #478FC7;
+}
+
+#survey {
+    background-color: #50687A;
+    color: #e2e2e2;
+}
+
+.btn {
+    background-color: #478FC7;
+}
