@@ -40,7 +40,7 @@
                 <!-- dropdown box -->
             <div class="form-group row">
                 <div class="col-sm-11">
-                <label for="dropdown" class="col-form-label col-form-label-sm">What type of content is most valuable to you?</label>
+                <label for="dropdown" class="col-form-label col-form-label-md">What type of content is most valuable to you?</label>
                     <select class="form-control form-control-sm" id="dropdown">
                         <option selected>Select One</option>
                         <option>Blog posts</option>
@@ -51,9 +51,69 @@
                           </div>   
             <!-- dropdown Form-group-row closing tag-->
             </div>
-            
-            
-            
+            <!-- checkboxes-->
+            <div class="form-group" id="checkboxes">
+                <label for="checkboxes">Which topics would you most like to see covered?</label>
+                    <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="1" id="html">
+                            <label class="form-check-label" for="html">
+                              HTML & CSS
+                            </label>
+                          </div>
+                          <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="2" id="JavaScript">
+                                <label class="form-check-label" for="JavaScript">
+                                  JavaScript
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="3" id="data">
+                                    <label class="form-check-label" for="data">
+                                      Data Visualization
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="4" id="openSource">
+                                        <label class="form-check-label" for="openSource">
+                                          Open Source
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="5" id="other">
+                                            <label class="form-check-label" for="other">
+                                              Other
+                                            </label>
+                                          </div>
+            <!-- end of checkboxes-->
+            </div>
+
+            <!-- Radio buttons -->
+            <div class="form-group form-control-md" id="radios">
+                    <label for="radios">How likely are you to recommend this blog to someone else?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="recommend" id="absolutely" value="option1" checked>
+                    <label class="form-check-label" for="absolutely">
+                        Absolutely
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="recommend" id="somewhat" value="option2">
+                    <label class="form-check-label" for="somewhat">
+                        Somewhat
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="recommend" id="no" value="option3">
+                    <label class="form-check-label" for="no">
+                        Not at all
+                    </div>
+            <!-- Closing for ID="radios" <div> -->
+            </div>
+
+
+
+
+
                 <!-- end of form -->   
                 </form>
                 <!-- end of Container -->
